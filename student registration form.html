@@ -1,0 +1,64 @@
+
+<html>
+<head>
+    <title>Job Application Form</title>
+</head>
+<style>
+    *{
+        color: skyblue;
+
+    } 
+</style>
+<body>
+<center>
+    <h2>Job Application Form</h2>
+    <form>
+        <table border="1">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Phone No:</td>
+                <td><input type="tel" name="phone" required></td>
+            </tr>
+            <tr>
+                <td>Position:</td>
+                <td>
+                    <select name="position">
+                        <option>Front-end</option>
+                        <option>Back-end</option>
+                        <option>Full Stack</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Upload File:</td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+            <tr>
+                <td>Experience:</td>
+                <td>
+                    <select name="experience">
+                        <option>No Experience</option>
+                        <option>Fresher (0-2)</option>
+                        <option>3-5 years</option>
+                        <option>More than 5 years</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+
+</body>
+</html>
